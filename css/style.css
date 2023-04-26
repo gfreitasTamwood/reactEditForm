@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5%;
+    border: 1px solid black;
+}
+
+form {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    width: 50%;
+}
+
+form input {
+    width: 30%;
+    padding: 1%;
+}
+
+.hidden {
+    display: none;
+}
